@@ -1,6 +1,6 @@
 node {  
     stage('Clone sources') {
-        git url: 'http://10.26.34.160/root/oms-project.git'
+        git url: 'https://github.com/devopsroman/git.git'
     }
     stage ('Build OMS') {
         sh 'mvn clean install'
